@@ -1,0 +1,77 @@
+body{
+  background-image: url(images/machine.jpg);
+  position: relative;
+}
+
+h1{
+  margin-top: 30px;
+  text-align: center;
+  color: red;
+}
+
+#centre{
+  margin-top: -40px;
+  display: flex;
+  height: 342px;
+}
+
+#gauche{
+  width: 10%;
+  height: 342px;
+}
+
+#histop2{
+  float: right;
+}
+
+#gagnant2{
+  height: 342px;
+  background-color: rgba(0, 0, 255, 0.5);
+  float:left;
+  display: none;
+}
+
+#droite{
+  width: 10%;
+  height: 342px;
+}
+
+#histop1{
+  float: right;
+}
+
+#gagnant1{
+  height: 342px;
+  background-color: rgba(255, 0, 0, 0.5);
+  float:left;
+  display: none;
+}
+
+#tableau{
+  margin:auto;
+  border-collapse: collapse;
+}
+
+p{
+  text-align: center;
+}
+
+#tableau td{
+  border: 1px dotted red;
+  width: 85px;
+  height: 85px;
+}
+
+#tour{
+  height: 30px;
+}
+
+.player1{
+  background-image: url(images/images.png);
+  background-size: cover;
+}
+
+.player2{
+  background-image: url(images/player2.png);
+  background-size: cover;
+}
